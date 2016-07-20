@@ -1,0 +1,23 @@
+C:\PTINET\1440-4SE-OrderLincVersion3\Application\OrderLincLib\OrderLincLib\obj\Release\OrderLincLib.pdb
+C:\PTINET\1440-4SE-OrderLincVersion3\Application\OrderLincLib\OrderLincLib\bin\Release\OrderLincLib.dll
+C:\PTINET\1440-4SE-OrderLincVersion3\Application\OrderLincLib\OrderLincLib\bin\Release\OrderLincLib.pdb
+C:\PTINET\1440-4SE-OrderLincVersion3\Application\OrderLincLib\OrderLincLib\bin\Release\PLPersistenceServices.dll
+C:\PTINET\1440-4SE-OrderLincVersion3\Application\OrderLincLib\OrderLincLib\obj\Release\OrderLincLib.dll
+C:\OrderlincPortal-BitBucket\OrderLincLib\OrderLincLib\obj\Release\OrderLincLib.pdb
+C:\OrderlincPortal-BitBucket\OrderLincLib\OrderLincLib\bin\Release\OrderLincLib.dll
+C:\OrderlincPortal-BitBucket\OrderLincLib\OrderLincLib\bin\Release\OrderLincLib.pdb
+C:\OrderlincPortal-BitBucket\OrderLincLib\OrderLincLib\bin\Release\PLPersistenceServices.dll
+C:\OrderlincPortal-BitBucket\OrderLincLib\OrderLincLib\obj\Release\OrderLincLib.dll
+C:\OrderlincPortal-BitBucket\OrderLincLib\OrderLincLib\obj\Release\OrderLincLib.csprojResolveAssemblyReference.cache
+C:\PTINET\1440-4SE-OrderLincVersion3\Application\OrderLincLib\OrderLincLib\obj\Release\OrderLincLib.csprojResolveAssemblyReference.cache
+C:\Agilitinet\1440-4SE-OrderLincVersion3\Application\OrderLincLib\OrderLincLib\bin\Release\OrderLincLib.dll
+C:\Agilitinet\1440-4SE-OrderLincVersion3\Application\OrderLincLib\OrderLincLib\bin\Release\OrderLincLib.pdb
+C:\Agilitinet\1440-4SE-OrderLincVersion3\Application\OrderLincLib\OrderLincLib\bin\Release\PLPersistenceServices.dll
+C:\Agilitinet\1440-4SE-OrderLincVersion3\Application\OrderLincLib\OrderLincLib\obj\Release\OrderLincLib.dll
+C:\Agilitinet\1440-4SE-OrderLincVersion3\Application\OrderLincLib\OrderLincLib\obj\Release\OrderLincLib.pdb
+C:\AgilitiNet Source\1440-4SE-OrderLincVersion3\Application\OrderLincLib\OrderLincLib\bin\Release\OrderLincLib.dll
+C:\AgilitiNet Source\1440-4SE-OrderLincVersion3\Application\OrderLincLib\OrderLincLib\bin\Release\OrderLincLib.pdb
+C:\AgilitiNet Source\1440-4SE-OrderLincVersion3\Application\OrderLincLib\OrderLincLib\bin\Release\PLPersistenceServices.dll
+C:\AgilitiNet Source\1440-4SE-OrderLincVersion3\Application\OrderLincLib\OrderLincLib\obj\Release\OrderLincLib.dll
+C:\AgilitiNet Source\1440-4SE-OrderLincVersion3\Application\OrderLincLib\OrderLincLib\obj\Release\OrderLincLib.pdb
+C:\AgilitiNet Source\1440-4SE-OrderLincVersion3\Application\OrderLincLib\OrderLincLib\obj\Release\OrderLincLib.csprojResolveAssemblyReference.cache

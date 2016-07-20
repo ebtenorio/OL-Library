@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C228DA9C-05D1-4A07-9DE0-20FA2AA6385A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OrderLinc</RootNamespace>
+    <AssemblyName>OrderLincLib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PLPersistenceServices">
+      <HintPath>..\..\Binaries\PLPersistenceServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AgilitiNetExtensions.cs" />
+    <Compile Include="DataAccess\AccountDA.cs" />
+    <Compile Include="DataAccess\AddressDA.cs" />
+    <Compile Include="DataAccess\ConfigurationDA.cs" />
+    <Compile Include="DataAccess\ContactDA.cs" />
+    <Compile Include="DTOS\DTODataLoadConfig.cs" />
+    <Compile Include="DTOS\ProviderWarehouseCriteria.cs" />
+    <Compile Include="DTOS\CustomerCriteria.cs" />
+    <Compile Include="DTOS\DTOMailConfig.cs" />
+    <Compile Include="DTOS\DTOMobileAccount.cs" />
+    <Compile Include="DTOS\OrderCriteria.cs" />
+    <Compile Include="Interfaces\IContactDA.cs" />
+    <Compile Include="DTOS\AccountCriteria.cs" />
+    <Compile Include="DTOS\ProductCriteria.cs" />
+    <Compile Include="Services\AddressService.cs" />
+    <Compile Include="Services\ConfigurationService.cs" />
+    <Compile Include="Interfaces\IConfigurationService.cs" />
+    <Compile Include="Interfaces\IConfigurationDA.cs" />
+    <Compile Include="Enumerations.cs" />
+    <Compile Include="Services\ContactService.cs" />
+    <Compile Include="Interfaces\IAddressService.cs" />
+    <Compile Include="Interfaces\IContactService.cs" />
+    <Compile Include="Services\LogService.cs" />
+    <Compile Include="Interfaces\ILogDA.cs" />
+    <Compile Include="DataAccess\CustomerDA.cs" />
+    <Compile Include="Interfaces\ILogService.cs" />
+    <Compile Include="DataAccess\LogDA.cs" />
+    <Compile Include="DTOS\DTOLog.cs" />
+    <Compile Include="Interfaces\IAddressDA.cs" />
+    <Compile Include="Interfaces\IAccountDA.cs" />
+    <Compile Include="Interfaces\ICustomerDA.cs" />
+    <Compile Include="Interfaces\ILog.cs" />
+    <Compile Include="Interfaces\IOrderDA.cs" />
+    <Compile Include="Interfaces\IProductDA.cs" />
+    <Compile Include="Interfaces\IProviderDA.cs" />
+    <Compile Include="Interfaces\IAccountService.cs" />
+    <Compile Include="Interfaces\ICustomerService.cs" />
+    <Compile Include="Interfaces\IOrderService.cs" />
+    <Compile Include="DataAccess\OrderDA.cs" />
+    <Compile Include="DataAccess\ProductDA.cs" />
+    <Compile Include="DataAccess\ProviderDA.cs" />
+    <Compile Include="DTOS\DTOAccount.cs" />
+    <Compile Include="DTOS\DTOAccountType.cs" />
+    <Compile Include="DTOS\DTOAddress.cs" />
+    <Compile Include="DTOS\DTOAddressType.cs" />
+    <Compile Include="DTOS\DTOContact.cs" />
+    <Compile Include="DTOS\DTOCustomer.cs" />
+    <Compile Include="DTOS\DTOCustomerSalesRep.cs" />
+    <Compile Include="DTOS\DTOLogo.cs" />
+    <Compile Include="DTOS\DTOMessageInbound.cs" />
+    <Compile Include="DTOS\DTOOrder.cs" />
+    <Compile Include="DTOS\DTOOrderLine.cs" />
+    <Compile Include="DTOS\DTOOrderSignature.cs" />
+    <Compile Include="DTOS\DTOOrgUnit.cs" />
+    <Compile Include="DTOS\DTOProduct.cs" />
+    <Compile Include="DTOS\DTOProductBrand.cs" />
+    <Compile Include="DTOS\DTOProductCategory.cs" />
+    <Compile Include="DTOS\DTOProductData.cs" />
+    <Compile Include="DTOS\DTOProductGroup.cs" />
+    <Compile Include="DTOS\DTOProductGroupLine.cs" />
+    <Compile Include="DTOS\DTOProductUOM.cs" />
+    <Compile Include="DTOS\DTOProvider.cs" />
+    <Compile Include="DTOS\DTOProviderCustomer.cs" />
+    <Compile Include="DTOS\DTOProviderProduct.cs" />
+    <Compile Include="DTOS\DTOProviderWarehouse.cs" />
+    <Compile Include="DTOS\DTORegion.cs" />
+    <Compile Include="DTOS\DTORole.cs" />
+    <Compile Include="DTOS\DTOSalesOrg.cs" />
+    <Compile Include="DTOS\DTOServer.cs" />
+    <Compile Include="DTOS\DTOSYSConfig.cs" />
+    <Compile Include="DTOS\DTOSYSOrderStatus.cs" />
+    <Compile Include="DTOS\DTOSYSState.cs" />
+    <Compile Include="Interfaces\IAccount.cs" />
+    <Compile Include="Interfaces\IAccountType.cs" />
+    <Compile Include="Interfaces\IAddress.cs" />
+    <Compile Include="Interfaces\IAddressType.cs" />
+    <Compile Include="Interfaces\IContact.cs" />
+    <Compile Include="Interfaces\ICustomer.cs" />
+    <Compile Include="Interfaces\ICustomerSalesRep.cs" />
+    <Compile Include="Interfaces\ILogo.cs" />
+    <Compile Include="Interfaces\IMessageInbound.cs" />
+    <Compile Include="Interfaces\IOrder.cs" />
+    <Compile Include="Interfaces\IOrderLine.cs" />
+    <Compile Include="Interfaces\IOrderSignature.cs" />
+    <Compile Include="Interfaces\IOrgUnit.cs" />
+    <Compile Include="Interfaces\IProduct.cs" />
+    <Compile Include="Interfaces\IProductBrand.cs" />
+    <Compile Include="Interfaces\IProductCategory.cs" />
+    <Compile Include="Interfaces\IProductData.cs" />
+    <Compile Include="Interfaces\IProductGroup.cs" />
+    <Compile Include="Interfaces\IProductGroupLine.cs" />
+    <Compile Include="Interfaces\IProductUOM.cs" />
+    <Compile Include="Interfaces\IProvider.cs" />
+    <Compile Include="Interfaces\IProviderCustomer.cs" />
+    <Compile Include="Interfaces\IProviderProduct.cs" />
+    <Compile Include="Interfaces\IProviderWarehouse.cs" />
+    <Compile Include="Interfaces\IRegion.cs" />
+    <Compile Include="Interfaces\IRole.cs" />
+    <Compile Include="Interfaces\ISalesOrg.cs" />
+    <Compile Include="Interfaces\IServer.cs" />
+    <Compile Include="Interfaces\ISYSConfig.cs" />
+    <Compile Include="Interfaces\ISYSOrderStatus.cs" />
+    <Compile Include="Interfaces\ISYSState.cs" />
+    <Compile Include="OrderLincServices.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AccountService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\CatalogService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\CustomerService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interfaces\IProviderService.cs" />
+    <Compile Include="Interfaces\ICatalogService.cs" />
+    <Compile Include="Services\OrderService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\ProviderService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\ReportService.cs" />
+    <Compile Include="Utilities\CsvReader.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetPath)" "$(SolutionDir)..\Binaries"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
